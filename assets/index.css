@@ -1,0 +1,46 @@
+html {
+    background-color: black;
+    color: rgb(199, 198, 198);
+}
+
+.printName {
+    text-align: center;
+    border-top-width: 10px;
+    font-size: 50px;
+}
+
+ /* The sidebar menu */
+ .sidebar {
+    height: 100%; 
+    width: 0; 
+    position: fixed;; 
+    z-index: 1; 
+    top: 0;
+    left: -250;
+    background-color: #111; 
+    overflow-x: hidden; 
+    padding-top: 60px; 
+    width: 250px;
+    margin-left: 250px;
+ 
+  }
+  
+  /* The sidebar links */
+  .sidebar a {
+    padding: 8px 8px 24px 65px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #868686;
+    display: block;
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidebar a:hover {
+    color: #f1f1f1;
+  }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 18px;}
+  } 
